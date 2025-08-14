@@ -1,23 +1,3 @@
-// This file is part of BOINC.
-// https://boinc.berkeley.edu
-// Copyright (C) 2024 University of California
-//
-// BOINC is free software; you can redistribute it and/or modify it
-// under the terms of the GNU Lesser General Public License
-// as published by the Free Software Foundation,
-// either version 3 of the License, or (at your option) any later version.
-//
-// BOINC is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-// See the GNU Lesser General Public License for more details.
-//
-// You should have received a copy of the GNU Lesser General Public License
-// along with BOINC.  If not, see <http://www.gnu.org/licenses/>.
-
-// Functions to get host info (CPU, network, disk, mem) on unix-based systems.
-// Lots of this is system-dependent so lots of #ifdefs.
-// Try to keep this well-organized and not nested.
 
 #include "version.h"         // version numbers from autoconf
 #include "cpp.h"
